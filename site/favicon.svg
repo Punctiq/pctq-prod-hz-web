@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .bg{fill:#ffffff;opacity:.0} /* transparent; setează la .08 dacă vrei halo alb */
+      .txt{fill:#0061C1;font:700 44px/1 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="64" height="64" rx="12"></rect>
+  <text class="txt" x="32" y="42" text-anchor="middle">P</text>
+</svg>

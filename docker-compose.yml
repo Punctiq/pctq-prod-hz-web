@@ -1,0 +1,18 @@
+services:
+  web:
+    image: itcommunity/web-backend01-prod:1.0.0
+    container_name: pctq-prod-hz-web
+    expose:
+      - "80"
+    restart: unless-stopped
+    
+    environment:
+      - VIRTUAL_HOST=punctiq.com,www.punctiq.com
+   
+    networks:
+      - pctq-prod-hz-net
+        
+
+networks:
+  pctq-prod-hz-net:
+    external: true
